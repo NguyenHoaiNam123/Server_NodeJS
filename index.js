@@ -4,8 +4,7 @@ const app = express();
 const database = require('./database');
 const User = require('./account.js');
 const bodyParser = require('body-parser');
-require('dotenv').config();
-const port = process.env.PORT;
+const port = 8000;
 
 
 app.use(bodyParser.json());
